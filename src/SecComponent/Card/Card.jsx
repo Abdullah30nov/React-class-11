@@ -27,7 +27,7 @@ export default function MediaCard() {
                     <Typography variant="body2" color="text.secondary">
                     {e.description.slice(0,150)}
                     </Typography>
-                  </CardContent>
+                  </CardContent><hr />
                   <CardActions>
                     <Button size="small" variant="h1" onClick={()=>navigate(`/product/${e.id}`)}>View</Button>
                   </CardActions>
