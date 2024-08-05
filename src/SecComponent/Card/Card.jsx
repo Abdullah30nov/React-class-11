@@ -23,7 +23,7 @@ export default function MediaCard() {
                   <CardContent>
                     <Typography gutterBottom variant="h5" component="div">
                       {e.title.slice(0,45)}
-                    </Typography>
+                    </Typography><br />
                     <Typography variant="body2" color="text.secondary">
                     {e.description.slice(0,150)}
                     </Typography>
